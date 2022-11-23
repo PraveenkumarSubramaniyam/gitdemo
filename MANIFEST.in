@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gitdemo *.css
+recursive-include gitdemo *.csv
+recursive-include gitdemo *.html
+recursive-include gitdemo *.ico
+recursive-include gitdemo *.js
+recursive-include gitdemo *.json
+recursive-include gitdemo *.md
+recursive-include gitdemo *.png
+recursive-include gitdemo *.py
+recursive-include gitdemo *.svg
+recursive-include gitdemo *.txt
+recursive-exclude gitdemo *.pyc
